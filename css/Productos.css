@@ -1,0 +1,65 @@
+/* ----------------------------------------PRODUCTOS */
+.productos {
+  padding: 30px 0;
+}
+
+.productos h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: black;
+}
+
+.productos .caja_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.productos h2 {
+  width: 100%;
+}
+
+.productos h3 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.productos h3 {
+  width: 100%;
+}
+
+.productos article {
+  background: #00274b;
+  width: 15%;
+  margin: 20px 20px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.productos h4, .productos p {
+  padding: 5px;
+}
+
+.productos a {
+  color: white;
+  padding: 5px;
+}
+
+.productos a:hover {
+  color: red;
+}
+/*# sourceMappingURL=Productos.css.map */

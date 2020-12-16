@@ -1,0 +1,48 @@
+/* ----------------------------------------GALERIA */
+
+.galeria {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
+    h2 {
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 20px 20px;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    img {
+        border-radius: 15px;
+    }
+    
+}
+
+/* ----------------------------------------VIDEO*/
+
+.videos {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
+    h2 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+        padding: 20px 20px;  
+        color: black;
+        padding: 40px;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 10px;
+    }
+}

@@ -1,0 +1,85 @@
+/* ----------------------------------------CONTACTO */
+
+.contacto {
+    h2 {
+        text-align: center;
+        padding: 20px 20px;
+        margin: 10px;
+    }
+
+    form{
+        width:300px;
+        padding:16px;
+        border-radius:10px;
+        margin:auto;
+        background-color:rgb(177, 176, 176);
+    }
+
+    form label{
+        width:80px;
+        font-weight:bold;
+        display:inline-block;
+    }
+
+    .informacion {
+        width:180px;
+        padding:10px 10px;
+        border:1px solid #f6f6f6;
+        border-radius:3px;
+        background-color:#f6f6f6;
+        margin:8px 0;
+        display:inline-block;
+    }
+
+    .enviar {
+        width:100%;
+        padding:8px 16px;
+        margin-top:32px;
+        border:1px solid #000;
+        border-radius:5px;
+        display:block;
+        background-color:#f6f6f6;
+    } 
+
+    .enviar:hover{
+        background: rgb(0, 39, 75);
+        color: white;
+    }
+
+    textarea{
+        width:100%;
+        height:100px;
+        border:1px solid #f6f6f6;
+        border-radius:3px;
+        background-color:#f6f6f6;			
+        margin:8px 0;
+        resize:none;
+        display:block;
+    }
+
+    .bowling-ball {
+        margin-top: 40px;
+        animation-name: bowl;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+    }
+
+    @keyframes bowl {
+        0% { transform: translate(0) rotate(0); }
+        100% { transform: translate(1000px) rotate(180deg); }
+    }
+
+    @keyframes bowl2 {
+        0% { transform: translateX(0) rotate(0) ; }
+        100% { transform: translateX(1000px); }
+    }
+
+    @keyframes bowl3 {
+        0% { transform: translateY(0); }
+        20% { transform: translateY(30px); }
+        40% { transform: translateY(60px); }
+        100% { transform: translateY(0); }
+    }
+}

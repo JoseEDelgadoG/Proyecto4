@@ -1,0 +1,54 @@
+/* ----------------------------------------HEADER */
+header {
+  background: #00274b;
+  padding: 20px 20px;
+}
+
+header .caja_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header img {
+  border-radius: 50%;
+}
+
+header li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+header li a {
+  color: WHITE;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* ----------------------------------------DESTACADOS*/
+.destacados {
+  padding: 20px 20px;
+}
+
+.destacados h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.destacados ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=header.css.map */

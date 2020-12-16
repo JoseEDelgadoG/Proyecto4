@@ -1,0 +1,38 @@
+/* ----------------------------------------footer */
+
+footer {
+    grid-area: footer;
+    background: rgb(0, 39, 75);
+    text-align: center;
+    color: white;
+    padding: 30px 30px;
+    font-weight: bold;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .items li a,
+    .copy {
+        font-size: 20px;
+        color: #ffffff;
+    }
+
+    .social_media {  
+        font-size: 2em;
+    }
+
+    .instagram {
+        color: #d6249f;
+    }
+
+    .facebook {
+        color: 	#4267B2;
+    }
+
+    .twitter {
+        color: 	#1DA1F2;
+    }
+}
